@@ -31,10 +31,10 @@
 				<version>0.1.4</version>
 				<configuration>
 					<endpoint>http://localhost:8081/artifactory/Optum/Bank/</endpoint>
-					<resource>prod_gateway_${buildNo}.fed</resource>
+					<resource>dev_gateway_${buildNo}.fed</resource>
 					<method>GET</method>
 					<outputDir>${project.build.directory}/alternateLocation</outputDir>
-					<outputFilename>prod_gateway_${buildNo}.fed</outputFilename>
+					<outputFilename>dev_gateway_${buildNo}.fed</outputFilename>
 				</configuration>
 				<executions>
 					<execution>
